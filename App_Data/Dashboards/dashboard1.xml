@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="New Dashboard" />
+  <DataSources>
+    <SqlDataSource ComponentName="DataSource1">
+      <Name>vw_Trip_List</Name>
+      <Connection Name="MyPNC" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="vw_Trip_List">
+        <Tables>
+          <Table Name="vw_Trip_List" />
+        </Tables>
+        <Columns>
+          <Column Table="vw_Trip_List" Name="RefDate" />
+          <Column Table="vw_Trip_List" Name="Driver" />
+          <Column Table="vw_Trip_List" Name="Vehicle" />
+          <Column Table="vw_Trip_List" Name="FromLoction" />
+          <Column Table="vw_Trip_List" Name="ToLocation" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Loading" ShowCaption="false" DataSource="DataSource1" DataMember="vw_Trip_List">
+      <DataItems>
+        <Dimension DataMember="Driver" DefaultId="DataItem0" />
+        <Dimension DataMember="RefDate" DateTimeGroupInterval="Month" DefaultId="DataItem1" />
+        <Dimension DataMember="Vehicle" DefaultId="DataItem2" />
+        <Dimension DataMember="FromLoction" DefaultId="DataItem3" />
+        <Dimension DataMember="ToLocation" DefaultId="DataItem4" />
+        <Dimension DataMember="RefDate" DefaultId="DataItem5" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension DefaultId="DataItem5" />
+      </HiddenDimensions>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem3" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem4" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <SparklineArgument DefaultId="DataItem1" />
+      <GridOptions />
+    </Grid>
+    <TreeView ComponentName="treeViewDashboardItem1" Name="Filter" DataSource="DataSource1" DataMember="vw_Trip_List">
+      <DataItems>
+        <Dimension DataMember="Vehicle" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </TreeView>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="treeViewDashboardItem1" Weight="38.476216070948666" />
+      <LayoutGroup Weight="156.60575114216607">
+        <LayoutItem DashboardItem="gridDashboardItem1" Weight="104.91803278688525" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

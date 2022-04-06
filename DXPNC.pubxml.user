@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\DXPNC_Deploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/de/DevExpress.Dashboard.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:55:44</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Dashboard.v16.2.Web.resources.dll">
+      <publishTime>05/19/2021 15:55:44</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.DataAccess.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:54</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.Dashboards.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:55</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:55</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.ExpressApp.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:55</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Map.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.PivotGrid.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:18</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:04</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:08</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:34</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Xpo.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:13</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:15</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:15</publishTime>
+    </File>
+    <File Include="bin/DevExpress.CodeParser.v16.2.dll">
+      <publishTime>05/19/2021 15:55:43</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Dashboard.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Dashboard.v16.2.Web.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v16.2.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/DevExpress.DataAccess.v16.2.dll">
+      <publishTime>05/19/2021 15:55:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Dashboards.Web.v16.2.dll">
+      <publishTime>05/19/2021 15:55:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.v16.2.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.ExpressApp.Web.v16.2.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Map.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:18</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:04</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v16.2.dll">
+      <publishTime>05/19/2021 15:56:09</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v16.2.dll">
+      <publishTime>05/19/2021 15:55:43</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Resources.v16.2.dll">
+      <publishTime>05/19/2021 15:56:09</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v16.2.dll">
+      <publishTime>05/19/2021 15:55:34</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Xpo.v16.2.dll">
+      <publishTime>05/19/2021 15:56:13</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v16.2.dll">
+      <publishTime>05/19/2021 15:56:15</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v16.2.Core.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v16.2.Presets.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v16.2.Win.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraMap.v16.2.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v16.2.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/DXWebApplication1.dll">
+      <publishTime>06/24/2021 17:44:15</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Dashboard.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Dashboard.v16.2.Web.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.DataAccess.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:54</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.Dashboards.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.ExpressApp.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Map.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.PivotGrid.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:18</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:04</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:09</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:34</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Xpo.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:13</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:15</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Dashboard.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Dashboard.v16.2.Web.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.DataAccess.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.Dashboards.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.ExpressApp.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Map.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.PivotGrid.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:18</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:04</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:09</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:34</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Xpo.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:13</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:15</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Dashboard.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Dashboard.v16.2.Web.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:47</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.DataAccess.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.Dashboards.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:01</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:01</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.ExpressApp.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:01</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Map.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.PivotGrid.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:18</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:04</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:09</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:55:34</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Xpo.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:13</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:15</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v16.2.resources.dll">
+      <publishTime>05/19/2021 15:56:17</publishTime>
+    </File>
+    <File Include="Content/Images/AquaHeader.jpg">
+      <publishTime>06/23/2021 17:09:59</publishTime>
+    </File>
+    <File Include="Content/Images/BlackGlassHeader.jpg">
+      <publishTime>06/23/2021 17:09:59</publishTime>
+    </File>
+    <File Include="Content/Images/GlassHeader.jpg">
+      <publishTime>06/23/2021 17:09:59</publishTime>
+    </File>
+    <File Include="Content/Images/PlasticBlueHeader.jpg">
+      <publishTime>06/23/2021 17:09:59</publishTime>
+    </File>
+    <File Include="Content/Images/RedWineHeader.jpg">
+      <publishTime>06/23/2021 17:09:59</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>06/24/2021 16:15:23</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/24/2021 16:15:26</publishTime>
+    </File>
+    <File Include="Design.aspx">
+      <publishTime>06/24/2021 12:34:38</publishTime>
+    </File>
+    <File Include="DS_Design.aspx">
+      <publishTime>06/24/2021 12:39:54</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/23/2021 17:09:56</publishTime>
+    </File>
+    <File Include="Light.master">
+      <publishTime>06/23/2021 17:09:56</publishTime>
+    </File>
+    <File Include="List_Vehicle.aspx">
+      <publishTime>06/24/2021 17:32:39</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>06/24/2021 12:14:58</publishTime>
+    </File>
+    <File Include="LogonTemplateContent1.ascx">
+      <publishTime>06/24/2021 13:11:31</publishTime>
+    </File>
+    <File Include="Main.master">
+      <publishTime>06/24/2021 16:25:07</publishTime>
+    </File>
+    <File Include="Root.master">
+      <publishTime>06/24/2021 16:02:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/24/2021 17:44:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
